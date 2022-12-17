@@ -27,6 +27,7 @@ public class Zoo {
                 result.add((Speakable) item);
             }
         }
+        result.add(new Radio());
         return result;
     }
     public String talk() {
