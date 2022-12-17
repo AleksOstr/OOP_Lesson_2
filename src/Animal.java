@@ -2,9 +2,9 @@ import Interfaces.Runable;
 import Interfaces.Speakable;
 
 public class Animal {
-    String nickname;
-    int legs;
-    String owner;
+    private String nickname;
+    private int legs;
+    private String owner;
 
     public String getNickname() {
         return nickname;
