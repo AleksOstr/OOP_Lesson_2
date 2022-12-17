@@ -1,7 +1,7 @@
 import Interfaces.Runable;
 import Interfaces.Speakable;
 
-public class Animal {
+public abstract class Animal {
     private String nickname;
     private int legs;
     private String owner;
