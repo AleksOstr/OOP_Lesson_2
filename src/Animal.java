@@ -26,7 +26,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return String.format("Animal: %s Nickname: %s Owner: %s Legs: %d",
-                            this.getClass(), this.getNickname(), this.getOwner(), this.getLegs());
+        return String.format("Nickname: %s Owner: %s Legs: %d",
+                            this.getNickname(), this.getOwner(), this.getLegs());
     }
 }
