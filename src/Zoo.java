@@ -33,7 +33,7 @@ public class Zoo {
     public String talk() {
         StringBuilder stringBuilder = new StringBuilder();
         for (Speakable item : getSpeakable()) {
-            stringBuilder.append(item.speak());
+            stringBuilder.append(item.speak() + "\n");
         }
         return stringBuilder.toString();
     }
